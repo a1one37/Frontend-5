@@ -1,0 +1,12 @@
+@import './reset.css';
+@import './header.css';
+@import './main.css';
+html{
+    font-family: 'Roboto', sans-serif;
+    color:var(--text-color);
+    font-style: none;
+
+}
+body{
+    padding: 5px;
+}

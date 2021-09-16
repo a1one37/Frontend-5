@@ -1,0 +1,138 @@
+.header_img{
+    width: 469px;
+    position: absolute;
+    background: #FFFFFF;
+    height: 400px;
+
+}
+
+
+
+.title_header{
+    position: absolute;
+width: 360px;
+height: 84px;
+left: 67px;
+top: 276px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 42px;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.first_header_card{
+    height: 400px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.title_game{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 0.03em;
+margin: 0 auto;
+color: #212121;
+}
+
+.title_game::after{
+    content: "";
+    display: block;
+    width: 100px;
+height: 2px;
+background: var(--acent-color);
+margin: 10px auto 0 auto;
+
+
+}
+
+.card_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    
+    color: #2196F3;
+}
+
+.card_content{
+    width: 402px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.card_title{
+    margin-bottom: 15px;
+}
+
+.card{
+    margin-bottom: 60px;
+    margin-top: 30px;
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.main_content .card:last-child{
+margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+.contacts_form{
+    width: 370px;
+height: 342px;
+margin: 0 auto;
+}
+
+.contacts_content{
+    margin-top: 30px;
+}
+
+.name_of_input{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-transform: capitalize;
+letter-spacing: 0.01em;
+
+color: #757575;
+}
+
+input.inpuut{
+cursor: pointer;
+    width: 370px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.4);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input.inpuut:focus{
+    
+    /* border: 4px solid #39c; */
+    }

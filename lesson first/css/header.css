@@ -1,0 +1,47 @@
+header{
+    margin-bottom: 30px;
+}
+nav{
+    display: flex;
+    width: 469px;
+    justify-content: space-between;
+}
+.logo{
+    text-transform: capitalize;
+    font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--title-color);
+height: fit-content;
+
+}
+.word_game{
+color: var(--acent-color);
+}
+
+
+
+.social_links_image{
+height: 25px;
+
+    
+}  
+
+
+
+
+
+
+.social_media_block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column
+
+
+}
+
+
+
