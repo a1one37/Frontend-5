@@ -1,12 +1,17 @@
 @import './reset.css';
 @import './header.css';
 @import './main.css';
+@import './footer.css';
 html{
     font-family: 'Roboto', sans-serif;
     color:var(--text-color);
     font-style: none;
 
 }
-body{
+header{
+    padding: 5px;
+}
+
+main{
     padding: 5px;
 }

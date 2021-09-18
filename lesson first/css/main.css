@@ -1,3 +1,6 @@
+main{
+    margin-bottom: 40px;
+}
 .header_img{
     width: 469px;
     position: absolute;
@@ -14,7 +17,7 @@ width: 360px;
 height: 84px;
 left: 67px;
 top: 276px;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 26px;
@@ -34,7 +37,7 @@ color: #FFFFFF;
 }
 
 .title_game{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -58,7 +61,7 @@ margin: 10px auto 0 auto;
 }
 
 .card_title{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -81,8 +84,13 @@ margin: 10px auto 0 auto;
 .card_title{
     margin-bottom: 15px;
 }
+.body_img{
+    width: 469px;
+}
 
 .card{
+    width: 469px;
+
     margin-bottom: 60px;
     margin-top: 30px;
     background: #FFFFFF;
@@ -101,9 +109,10 @@ margin-bottom: 100px;
 
 
 
+
 .contacts_form{
     width: 370px;
-height: 342px;
+
 margin: 0 auto;
 }
 
@@ -112,7 +121,7 @@ margin: 0 auto;
 }
 
 .name_of_input{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
@@ -123,16 +132,101 @@ letter-spacing: 0.01em;
 color: #757575;
 }
 
-input.inpuut{
+.inpuut{
+    
 cursor: pointer;
     width: 370px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.4);
     box-sizing: border-box;
     border-radius: 4px;
+    margin-top: 4px;
+    outline: none;
+    padding:    0 14px;
 }
 
-input.inpuut:focus{
+
     
-    /* border: 4px solid #39c; */
+
+
+.inpuut-coment{
+    
+    height: 130px;
+    
+}
+
+
+.inpuut:focus {
+    border-color: var(--acent-color);
+    
+    top: 15%;
+  }
+.name_of_input{
+    margin-bottom: 5px;
+}
+  .filling_contacts{
+      margin-bottom: 15px;
+  }
+
+
+  ::-webkit-input-placeholder{
+    position: absolute;
+    top: 15%;
+    
+    
+  }
+
+  .filling_contacts textarea{
+    width: 370px;
+    height: 130px;
+    padding-left: 19px;
+    padding-top: 19px;
+    font-size: 16px;
+    border: 1px solid rgba(33, 33, 33, 0.4);
+    border-radius: 7px; 
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .filling_contacts textarea{
+      outline: none;
+  }
+
+  .filling_contacts textarea:focus{
+    border-color: var(--acent-color);
+  }
+
+
+  .filling_contacts:last-of-type{
+      margin-bottom: 50px;
+    }
+
+    .contacts_button{
+        border: transparent;
+     margin: 0 auto;   
+width: 200px;
+height: 50px;
+
+display: block;
+background: #188CE8;
+
+border-radius: 4px; 
+
+
+
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+
+
+
+align-items: center;
+
+color: #FFFFFF;
+
+
+
     }
