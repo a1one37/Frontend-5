@@ -30,29 +30,29 @@
 // ----------------------------------------------------------------------ЗАВДАННЯ 5-------------------------------------------------
 
 
-  //   let country = prompt("insert your country")
-    
+  //   let country = prompt().toUpperCase()
+  //   let countryToNormalregistr = country.toUpperCase()
   
 
 
-  // switch(country){
-  //   case "China": 
+  // switch(countryToNormalregistr){
+  //   case "CHINA": 
   //     alert ("Shipping to China will cost 100 credits");
   //     break
       
-  //   case "Chile":
+  //   case "CHILE":
   //     alert("Shipping to Chile will cost 250 credits");
   //     break
       
-  //   case "Australia":
+  //   case "AUSTRALIA":
   //       alert("Shipping to Australia will cost 170 credits");
   //     break
 
-  //     case "India":
+  //     case "INDIA":
   //       alert("Shipping to India will cost 80 credits") ;
   //    break
 
-  //   case "Jamaica":
+  //   case "JAMAICA":
   //       alert("Shipping to Jamaica will cost 120 credits") ;
   //    break
       
