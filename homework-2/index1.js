@@ -81,6 +81,7 @@
 // let input;
 // let sum = 0;
 // let total = 0;
+//  let quantityInput = -1;
 
 // do{
 
@@ -91,6 +92,10 @@
 // }
 
 
+// do{
+//          quantityInput += 1;
+//      }while(input === true)
+ 
 // let inputIsNaN = parseFloat( isNaN(Number(input)))
 //  inputIsNaN ? alert("Ви ввели не число ") :  sum += Number(input);
 
@@ -101,7 +106,11 @@
 
 
 // console.log("Сумма:", sum)
-// console.log("Длина:", sum.toString().length)
+// console.log("вы ввели вот столько чисел: " + quantityInput)
+// console.log("среднее число: " + sum / quantityInput)
+
+
+
 
 
 
