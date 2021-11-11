@@ -1,13 +1,15 @@
 // --------------------------------------------------------------------- Задание 1 ---------------------------------------------------------------------------------- 
 
 // const numberArray = [0, 1, false, 2, undefined, '', 3, null];
+// let arr = [];
 
 // for(let number of numberArray){
 //     if(!number){
 //         continue;
 
 //     };
-//     console.log(number);
+    
+//     console.log([arr.push(number)]);
 // }
 
 
@@ -38,6 +40,45 @@
 
 
 
+
+
+// for(let number of rundomNumberArr){
+//          if(number === 25){
+//             console.log("Мы нашли его, " + "это номер " + number + ", его индекс:  " + rundomNumberArr.indexOf(number));
+//             break
+//          }
+//          else{
+//              console.log("Нажаль...")
+//          }
+        
+// }
+
+
+// for(let number of rundomNumberArr){
+//     if(number === 27){
+//        console.log("Мы нашли его, " + "это номер " + number + ", его индекс:  " + rundomNumberArr.indexOf(number));
+//        break
+//     }
+//     else{
+//         console.log("Нажаль...")
+        
+//     }
+   
+// }
+
+// for(let number of rundomNumberArr){
+//     if(number === 65){
+//        console.log("Мы нашли его, " + "это номер " + number + ", его индекс:  " + rundomNumberArr.indexOf(number));
+//        break
+//     }
+//     else{
+//         console.log("Нажаль...")
+        
+//     }
+   
+// }
+
+
 // for(let number of rundomNumberArr){
 //     if(number === 25){
 //         console.log("Мы нашли его, " + "это номер " + number + ", его индекс:  " + rundomNumberArr.indexOf(number));
@@ -64,8 +105,7 @@
 
 // for (let i = 0; i < 10; i += 1) {
 //     rundomNumberArr.push(i);
-//       console.log(Math.floor(Math.random(rundomNumberArr) * 10));
+//       console.log([Math.floor(Math.random(rundomNumberArr) * 10)]);
 //   }
   
-
 
