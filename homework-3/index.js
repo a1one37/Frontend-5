@@ -1,7 +1,8 @@
 // --------------------------------------------------------------------- Задание 1 ---------------------------------------------------------------------------------- 
 
+// const newArr = [];
 // const numberArray = [0, 1, false, 2, undefined, '', 3, null];
-// let arr = [];
+
 
 // for(let number of numberArray){
 //     if(!number){
@@ -9,9 +10,10 @@
 
 //     };
     
-//     console.log([arr.push(number)]);
+//     newArr.push(number)
+    
 // }
-
+// console.log(newArr);
 
 // --------------------------------------------------------------------- Задание 2 ---------------------------------------------------------------------------------- 
 
@@ -100,12 +102,15 @@
 
 
 // --------------------------------------------------------------------- Задание 3 ---------------------------------------------------------------------------------- 
-
-// const rundomNumberArr = [];
-
+// let b ;
+// let rundomNumberArr = [];
+// let arrr = [];
 // for (let i = 0; i < 10; i += 1) {
 //     rundomNumberArr.push(i);
-//       console.log([Math.floor(Math.random(rundomNumberArr) * 10)]);
+    
+// b = (Math.floor(Math.random(rundomNumberArr) * 10)); 
+//        arrr.push(b);
+       
 //   }
-  
 
+// console.log(arrr);
