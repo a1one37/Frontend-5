@@ -44,9 +44,20 @@
 
      
 //      let max = Math.max(...arr);
-   
 
-//    console.log(nameOfBest , max);
+//    for(let employee in employees){
+// // console.log(employees[employee]);
+// if(employees[employee] === max){
+//     return {
+//         name: employee, 
+
+//         value:employees[employee]
+//     } 
+    
+// }
+//    }
+
+//    console.log( employee, max);
      
 
 
@@ -128,6 +139,19 @@
 //   ];
   
 //  const getAllPropValues = function (arr, prop) {
+//      let arrr = [];
+// for(let item of arr){
+//    if(item.hasOwnProperty(prop)){
+//  arrr.push(item [prop])
+//    }
+
+   
+   
+    
+// }
+
+// return arrr;
+
 
 //   }
   
@@ -150,12 +174,16 @@
 //   ];
   
 //   const calculateTotalPrice = function (allProdcuts, productName) {
-//     console.log(allProdcuts * productName);
+//       let total =0;
+//    for(let item of products){
+//        if(item['name'] === productName){
+//            total = item['price'] * item['quantity']
+//            return `Загальна вартість ${productName}a: ${total}`;
+//        }
+//    }
 //   };
-  
-//   /*
-//    * Викличи функції для перевірки працездатності твоєї реалізації.
-//    */
+
+
 //   console.log(calculateTotalPrice(products, 'Радар')); // 5200
   
 //   console.log(calculateTotalPrice(products, 'Дроїд')); // 2800
