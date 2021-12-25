@@ -69,7 +69,6 @@
 //     alert("you entered not a number")
 
 
-
 // }
 
 // }while (input !== null)

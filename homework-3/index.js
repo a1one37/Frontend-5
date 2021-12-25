@@ -21,7 +21,7 @@
 // console.log("Задание а");
 // console.log("");
 
-// const rundomNumberArr= [0,5,25,78,95,46,24,65,81,37,154,954];
+const rundomNumberArr= [0,5,25,78,95,46,24,65,81,37,154,954];
  
 // let sum =0;
 
@@ -44,61 +44,17 @@
 
 
 
-// for(let number of rundomNumberArr){
-//          if(number === 25){
-//             console.log("Мы нашли его, " + "это номер " + number + ", его индекс:  " + rundomNumberArr.indexOf(number));
-//             break
-//          }
-//          else{
-//              console.log("Нажаль...")
-//          }
-        
-// }
-
-
-// for(let number of rundomNumberArr){
-//     if(number === 27){
-//        console.log("Мы нашли его, " + "это номер " + number + ", его индекс:  " + rundomNumberArr.indexOf(number));
-//        break
-//     }
-//     else{
-//         console.log("Нажаль...")
-        
+// let myNumber = 25;
+// let mySecondNumber = 27;
+// let myThirdNumber = 65;
+// for(let i=0 ; i< rundomNumberArr.length; i +=1 ){
+//     if (rundomNumberArr.includes(myNumber)){
+//         console.log("we foung it");
+//         break
 //     }
    
 // }
 
-// for(let number of rundomNumberArr){
-//     if(number === 65){
-//        console.log("Мы нашли его, " + "это номер " + number + ", его индекс:  " + rundomNumberArr.indexOf(number));
-//        break
-//     }
-//     else{
-//         console.log("Нажаль...")
-        
-//     }
-   
-// }
-
-
-// for(let number of rundomNumberArr){
-//     if(number === 25){
-//         console.log("Мы нашли его, " + "это номер " + number + ", его индекс:  " + rundomNumberArr.indexOf(number));
-// continue
-//     }
-
-//     if(number === 27){
-//         console.log("Мы нашли его, " + "это номер " + number + ", его индекс:  " + rundomNumberArr.indexOf(number));
-// continue
-
-//     }
-
-//     if(number === 65){
-//         console.log("Мы нашли его, " + "это номер " + number + ", его индекс:  " + rundomNumberArr.indexOf(number));
-// continue
-//     }
-    
-// }
 
 
 // --------------------------------------------------------------------- Задание 3 ---------------------------------------------------------------------------------- 

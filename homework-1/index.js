@@ -30,47 +30,51 @@
 // ----------------------------------------------------------------------ЗАВДАННЯ 5-------------------------------------------------
 
 
-  //   let country = prompt().toUpperCase()
-  //   let countryToNormalregistr = country.toUpperCase()
-  
+    //   let country = prompt().toUpperCase()
+    //   let countryToNormalregistr = country.toUpperCase()
+    
 
 
-  // switch(countryToNormalregistr){
-  //   case "CHINA": 
-  //     alert ("Shipping to China will cost 100 credits");
-  //     break
-      
-  //   case "CHILE":
-  //     alert("Shipping to Chile will cost 250 credits");
-  //     break
-      
-  //   case "AUSTRALIA":
-  //       alert("Shipping to Australia will cost 170 credits");
-  //     break
+    // switch(countryToNormalregistr){
+    //   case "CHINA": 
+    //     alert ("Shipping to China will cost 100 credits");
+    //     break
+        
+    //   case "CHILE":
+    //     alert("Shipping to Chile will cost 250 credits");
+    //     break
+        
+    //   case "AUSTRALIA":
+    //       alert("Shipping to Australia will cost 170 credits");
+    //     break
 
-  //     case "INDIA":
-  //       alert("Shipping to India will cost 80 credits") ;
-  //    break
+    //     case "INDIA":
+    //       alert("Shipping to India will cost 80 credits") ;
+    //   break
 
-  //   case "JAMAICA":
-  //       alert("Shipping to Jamaica will cost 120 credits") ;
-  //    break
-      
-  //     default :
-  //     alert("Sorry, there is no delivery to your country") ;
-  // }
+    //   case "JAMAICA":
+    //       alert("Shipping to Jamaica will cost 120 credits") ;
+    //   break
+        
+    //     default :
+    //     alert("Sorry, there is no delivery to your country") ;
+    // }
     
 // ----------------------------------------------------------------------ЗАВДАННЯ 5-------------------------------------------------
 // ----------------------------------------------------------------------ЗАВДАННЯ 6-------------------------------------------------
     
-//     let total = 0;
+    
+// let total = 0;
+// let input;
 
-//     do{
-//       let input = prompt("Enter number")
-//       total += Number(input)  
-//     }while(input = null)
-  
-  
-// console.log(`Загальна сума чисел дорівнює ${total}`)
 
+// do {
+//   let sum;
+//   input = prompt ("enter number")
+//   let inputIsNaN = isNaN(Number(input))
+//  inputIsNaN ? alert("Ви ввели не число ") :  sum += Number(input);
+ 
+// }while(input !== null)
+
+// console.log(sum)
 // ----------------------------------------------------------------------ЗАВДАННЯ 6-------------------------------------------------
